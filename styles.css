@@ -6,12 +6,55 @@
 	font-family: "Poppins", sans-serif;
 }
 
-html,
 body {
-	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 2rem 3rem;
+	background: url("./undraw_discoverable_xwsc.svg");
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-position-x: 85%;
+	background-position-y: 85%;
+}
+
+h1 {
+	color: #f50057;
+	width: 80%;
+	font-size: 3rem;
+}
+
+h3 {
+	width: 80%;
+	font-size: 1.5rem;
 }
 
 ul {
 	list-style: none;
-	padding-left: none;
+	padding-left: 0px;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 2rem;
+	width: 80%;
+	height: 800px;
+}
+
+p {
+	padding: 1rem 0px;
+	width: 80%;
+	font-size: 1.1rem;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+a:hover {
+	color: #f50057;
+}
+
+h2 {
+	color: #536dfe;
 }
